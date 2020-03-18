@@ -13,7 +13,7 @@ Template simples para iniciar projetos ReactJS.
 Crie um novo projeto React utilizando o seguinte comando:
 
 ```sh
-$ npx create-react-app [ProjectName] --template @devsamurai/react-template-basic
+$ npx create-react-app [ProjectName] --template @devsamurai/basic
 ```
 
 Espere a conclusão.
