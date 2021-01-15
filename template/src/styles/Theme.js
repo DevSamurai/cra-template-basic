@@ -53,9 +53,9 @@ const theme = {
   },
 };
 
-const Theme = ({ children }) => {
-  return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
-};
+const Theme = ({ children }) => (
+  <ThemeProvider theme={theme}>{children}</ThemeProvider>
+);
 
 Theme.propTypes = {
   children: PropTypes.node.isRequired,
