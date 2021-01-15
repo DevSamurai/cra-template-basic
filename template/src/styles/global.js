@@ -13,26 +13,26 @@ export default createGlobalStyle`
   }
 
   body {
-    background: ${props => props.theme.colors.background};
+    background: ${(props) => props.theme.colors.background};
     -webkit-font-smoothing: antialiased !important;
     padding: 1rem;
   }
 
   a {
-    color: ${props => props.theme.colors.link}
+    color: ${(props) => props.theme.colors.link}
   }
   a.hover {
     text-decoration: underline;
   }
 
   body, input, p, a, button {
-    color: ${props => props.theme.colors.text};
-    font-size: ${props => props.theme.fontSizes.normal};
-    font-family: ${props => props.theme.fonts};
+    color: ${(props) => props.theme.colors.text};
+    font-size: ${(props) => props.theme.fontSizes.normal};
+    font-family: ${(props) => props.theme.fonts};
   }
 
   small {
-    font-size: ${props => props.theme.fontSizes.small};
+    font-size: ${(props) => props.theme.fontSizes.small};
   }
 
   button {
@@ -40,6 +40,6 @@ export default createGlobalStyle`
   }
 
   ::placeholder {
-    color: ${props => props.theme.colors.champagne};
+    color: ${(props) => props.theme.colors.champagne};
   }
 `;
