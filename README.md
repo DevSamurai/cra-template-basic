@@ -18,10 +18,6 @@ $ npx create-react-app [ProjectName] --template @devsamurai/basic
 
 Espere a conclusão.
 
-### Finalizando a instalação
-
-Execute o comando dentro da pasta do projeto `node setup.js` para excluir os arquivos desnecessários.
-
 ## Dúvidas
 
 Se você curtiu esse projeto ou está com dúvidas acesse:
